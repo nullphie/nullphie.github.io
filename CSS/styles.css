@@ -1,0 +1,20 @@
+#navbar {
+    padding: 20px 0;
+    background-color: #211D1F;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar .item {
+    font-weight: 700;
+    text-transform: lowercase;
+    padding: 10px 0;
+    margin: 0 30px;
+    font-size: 1.2em;
+}
+
+#navbar .item.active {
+    color: deeppink;
+    border-bottom: solid 2px deeppink;
+}
